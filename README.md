@@ -34,6 +34,10 @@ src/
 - npm
 - Configure Firebase local emulator
 
+1. **Install firebase tools globally:**
+- npm install -g firebase-tools
+- inside the project run: firebase emulators:start
+
 ### Installation
 
 1. **Clone the repository:**
