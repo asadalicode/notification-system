@@ -20,8 +20,8 @@ const ViewNotification = () => {
             <h2 className="text-lg font-semibold">Notification Detail</h2>
 
             <div className="flex flex-row gap-4 items-center" key={notification.id}>
-                <p style={{ textDecoration: notification.read ? 'line-through' : 'none' }}>{notification.message}</p>
-                <button onClick={() => readNotification(notification)}>{notification.read ? 'Viewed' : 'Mark As Read'}</button>
+                <p className={`${notification.read ? 'line-through' : 'none'}`}>{notification.message}</p>
+                <button onClick={() => readNotification(notification)}>{notification.read ? 'Read' : 'Mark As Read'}</button>
             </div>
         </div>
     )

@@ -67,11 +67,11 @@ const CreateNotification = () => {
         <h2 className="text-lg font-semibold">Notifications List</h2>
         {notifications.map((notification) => (
             <div className="flex flex-row gap-4 items-center" key={notification.id}>
-              <p className="text-lg" style={{ textDecoration: notification.read ? 'line-through' : 'none' }}
+              <p className={`text-lg ${notification.read ? 'line-through' : 'none'}`} 
               >{notification.message}</p>
               <div className="">
                 <button onClick={() => viewNotification(notification)}>View Notification</button>
-                <button onClick={() => readNotification(notification.id)}>{notification.read ? 'Viewed' : 'Mark As Read'}</button>
+                <button onClick={() => readNotification(notification.id)}>{notification.read ? 'Read' : 'Mark As Read'}</button>
               </div>
             </div>
         ))}
