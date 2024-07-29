@@ -38,6 +38,9 @@ src/
 - npm install -g firebase-tools
 - inside the project run: firebase emulators:start
 
+### Further details to setup firebase emulator
+- https://www.geeksforgeeks.org/how-to-setup-firebase-local-emulators-for-using-firebase-console-and-all-firebase-services/
+
 ### Installation
 
 1. **Clone the repository:**
