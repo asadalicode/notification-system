@@ -8,21 +8,23 @@ This is a React application built with Vite and TypeScript. It includes Firebase
 
 Here's a high-level overview of the project structure:
 
+```sh
 src/
-- ├── @types/ # TypeScript interfaces and namespaces
-- │ └── ... # Custom types and interfaces
-- ├── components/ # React components
-- │ └── ... # Component files
-- ├── assets/ # Static assets (images, fonts, etc.)
-- │ └── ... # Asset files
-- ├── firebase/ # Firebase configuration and related files
-- │ ├── config.ts # Firebase configuration file
-- │ └── ... # Additional Firebase setup files
-- ├── pages/ # React pages/views
-- │ └── ... # Page components
-- ├── services/ # Service files for API calls, Firebase interactions, etc.
-- │ └── ... # Service files
-- └── App.tsx # Main app component
+├── @types/ # TypeScript interfaces and namespaces
+│ └── ... # Custom types and interfaces
+├── components/ # React components
+│ └── ... # Component files
+├── assets/ # Static assets (images, fonts, etc.)
+│ └── ... # Asset files
+├── firebase/ # Firebase configuration and related files
+│ ├── config.ts # Firebase configuration file
+│ └── ... # Additional Firebase setup files
+├── pages/ # React pages/views
+│ └── ... # Page components
+├── services/ # Service files for API calls, Firebase interactions, etc.
+│ └── ... # Service files
+└── App.tsx # Main app component
+```
 
 ## Getting Started
 
