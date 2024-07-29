@@ -9,20 +9,20 @@ This is a React application built with Vite and TypeScript. It includes Firebase
 Here's a high-level overview of the project structure:
 
 src/
-├── @types/ # TypeScript interfaces and namespaces
-│ └── ... # Custom types and interfaces
-├── components/ # React components
-│ └── ... # Component files
-├── assets/ # Static assets (images, fonts, etc.)
-│ └── ... # Asset files
-├── firebase/ # Firebase configuration and related files
-│ ├── config.ts # Firebase configuration file
-│ └── ... # Additional Firebase setup files
-├── pages/ # React pages/views
-│ └── ... # Page components
-├── services/ # Service files for API calls, Firebase interactions, etc.
-│ └── ... # Service files
-└── App.tsx # Main app component
+- ├── @types/ # TypeScript interfaces and namespaces
+- │ └── ... # Custom types and interfaces
+- ├── components/ # React components
+- │ └── ... # Component files
+- ├── assets/ # Static assets (images, fonts, etc.)
+- │ └── ... # Asset files
+- ├── firebase/ # Firebase configuration and related files
+- │ ├── config.ts # Firebase configuration file
+- │ └── ... # Additional Firebase setup files
+- ├── pages/ # React pages/views
+- │ └── ... # Page components
+- ├── services/ # Service files for API calls, Firebase interactions, etc.
+- │ └── ... # Service files
+- └── App.tsx # Main app component
 
 ## Getting Started
 
@@ -36,8 +36,8 @@ src/
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-repo/vite-react-ts-project.git
-   cd vite-react-ts-project
+   git clone https://gitlab.com/co-ios/co-mean/notifications-system.git
+   cd notifications-system
 
 npm install
 # or
@@ -51,22 +51,25 @@ The project uses environment variables for configuration. Create two files in th
 
 Example .env.development:
 
+```sh 
 VITE_FIREBASE_API_KEY=your-development-api-key
 VITE_FIREBASE_AUTH_DOMAIN=your-development-auth-domain
 VITE_FIREBASE_PROJECT_ID=your-development-project-id
 VITE_FIREBASE_STORAGE_BUCKET=your-development-storage-bucket
 VITE_FIREBASE_MESSAGING_SENDER_ID=your-development-messaging-sender-id
 VITE_FIREBASE_APP_ID=your-development-app-id
+```
 
+# Example .env.production:
 
-Example .env.production:
-
+```sh
 VITE_FIREBASE_API_KEY=your-production-api-key
 VITE_FIREBASE_AUTH_DOMAIN=your-production-auth-domain
 VITE_FIREBASE_PROJECT_ID=your-production-project-id
 VITE_FIREBASE_STORAGE_BUCKET=your-production-storage-bucket
 VITE_FIREBASE_MESSAGING_SENDER_ID=your-production-messaging-sender-id
 VITE_FIREBASE_APP_ID=your-production-app-id
+```
 
 Note: Make sure to replace the placeholder values with your actual Firebase credentials.
 
