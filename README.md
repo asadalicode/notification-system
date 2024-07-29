@@ -28,8 +28,8 @@ src/
 
 ### Prerequisites
 
-- Node.js (v14 or later)
-- npm or yarn
+- Node.js (v18 or later)
+- npm
 
 ### Installation
 
@@ -40,8 +40,6 @@ src/
    cd notifications-system
 
 npm install
-# or
-yarn install
 
 Environment Variables
 The project uses environment variables for configuration. Create two files in the root directory:
