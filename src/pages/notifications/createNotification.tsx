@@ -66,7 +66,6 @@ const CreateNotification = () => {
       <div className="flex flex-col gap-6">
         <h2 className="text-lg font-semibold">Notifications List</h2>
         {notifications.map((notification) => (
-          <li>
             <div className="flex flex-row gap-4 items-center" key={notification.id}>
               <p className="text-lg" style={{ textDecoration: notification.read ? 'line-through' : 'none' }}
               >{notification.message}</p>
@@ -75,7 +74,6 @@ const CreateNotification = () => {
                 <button onClick={() => readNotification(notification.id)}>{notification.read ? 'Viewed' : 'Mark As Read'}</button>
               </div>
             </div>
-          </li>
         ))}
       </div>
     </section>
