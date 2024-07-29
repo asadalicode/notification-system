@@ -30,6 +30,7 @@ src/
 
 - Node.js (v18 or later)
 - npm
+- Configure Firebase local emulator
 
 ### Installation
 
